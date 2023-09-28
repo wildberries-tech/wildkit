@@ -1,0 +1,6 @@
+.idea
+venv
+__pycache__
+wildkit.egg-info
+dist/
+http-client.private.env.json

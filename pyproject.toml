@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wildkit"
+version = "0.0.1"
+authors = [
+  { name="Grinevich Ilya", email="grinevichilya2000@gmail.com" },
+  { name="Vinogradov Dmitry", email="dgrapes@gmail.com" },
+]
+description = "Wildberries Public API usage examples & tools"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://openapi.wb.ru"
